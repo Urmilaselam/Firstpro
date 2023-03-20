@@ -1,0 +1,10 @@
+my_tuple=("urmi",)
+print(type(my_tuple))
+my_tuple=("urmi")
+print(type(my_tuple))
+my_tuple=["urmi"]
+print(type(my_tuple))
+my_tuple=0
+print(type(my_tuple))
+my_tuple=23.30
+print(type(my_tuple))

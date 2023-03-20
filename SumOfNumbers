@@ -1,0 +1,7 @@
+num=123
+d1=num%10
+num1=num//10
+d2=num1%10
+d3=num1//10
+sum=d3+d2+d1
+print("Sum of numbers d3,d2,d1 is:",d1,d2,d3, sum)

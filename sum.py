@@ -1,10 +1,6 @@
-n=int(input("Enter n value: "))
-i=0
-first=0
-second=1
-while i<n:
-    print(first,end=" ")
-    temp=first
-    first=second
-    second=temp+second
-    i+=1
+list=[1,2,4,5,6,7,8,3,5,6]
+sum=0
+for i in list:
+    sum=sum+i
+avg=sum/len(list)
+print(sum,avg)

@@ -1,0 +1,3 @@
+Linfeet=20
+Lincm=20*30
+print("Length Feet to Centimeter is: ",Lincm)
